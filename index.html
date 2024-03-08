@@ -6,25 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up with SMS</title>
     <link rel="stylesheet" href="style.css">
+</head>
 
-<body>
+<body class="body">
     <div class="signup-container">
-        <h2>Sign Up with SMS</h2>
+        <h2>Log in with Password</h2>
         <form>
-            <input type="tel" placeholder="Enter your phone number" required>
-            <button type="submit">Next</button>
+            <input class="input" type="tel" placeholder="Email or mobile number" required><br>
+            <div class="form-group">
+                <input class="input" type="password" placeholder="Password" id="password" name="password" required>
+            </div><br>
+            <button class="button" type="submit">Login</button>
+            <br>
+            <br>
+            <button class="button" type="button">Forgot password</button>
+            <table  class="text">
 
-            <table align="center">
-                <tr> 
-                    <td><a href="style.css/">Login</a></td> 
-                    <td><a href="style.css/">| Log in with other account</a></td> 
-                   
-                </tr>
+                <tr>
+                    <td><a class="link" href="daftar.html"> Signup</a></td>
+                    <td><a class="link"href="style.css/">| Log in with other account</a></td>
+                    
+                </tr>
             </table>
         </form>
-        
-    </div>
+        <br><br>
 
+
+
+    </div>
 </body>
 
 </html>
